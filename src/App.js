@@ -9,7 +9,12 @@ import jokesData from './data/jokesData'
 
 function App() {
 
-  const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchline={joke.punchline}/>)
+  const jokeComponents = jokesData.map(joke => 
+    <Joke 
+      key={joke.id} 
+      question={joke.question} 
+      punchline={joke.punchline}/>
+  )
 
   return (
     <div>
