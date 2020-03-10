@@ -12,7 +12,7 @@ class App extends React.Component {
 }
 
 class Header extends React.Component {
-    render(props) {
+    render() {
         return (
             <header>
                 <p>Welcome, {this.props.username}!</p>
@@ -40,7 +40,7 @@ class Greeting extends React.Component {
 
     render() {
         const timeOfDay = this.getTimeofDay()
-        
+
         return (
             <p>Good { timeOfDay  }, sir or madam!</p>
         )
