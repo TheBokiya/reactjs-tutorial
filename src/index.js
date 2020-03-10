@@ -2,7 +2,8 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 // import App from "./App"
-import App from "./module/mappingComponentsPractice"
+import App from "./module/classBasedComponentsPractice"
+
 
 import './style.css'
 
