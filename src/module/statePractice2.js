@@ -12,7 +12,7 @@ class App extends React.Component {
     render() {
         let isLoggedIn
         if (this.state.isLoggedIn) 
-            isLoggedIn = "in"
+            isLoggedIn = "in" 
         else
             isLoggedIn = "out"
         return (
