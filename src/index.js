@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 // import App from "./module/todoListProject"
-import App from "./module/formsPractice"
+import App from "./module/componentArchitecture"
 
 
 import './style.css'
